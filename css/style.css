@@ -1,0 +1,423 @@
+body{background-color:white ;
+    height:3000px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* header */
+.header1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+  
+ 
+}
+.img1{
+    width: 160px;
+    height: 37px;
+}
+.list{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.abif1,.abif{
+    color:#7b5244;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+   
+}
+.abif1:hover{
+    border: 2px solid #7b5244;
+   
+}
+.abif:hover {
+    border: 2px solid #7b5244;
+
+}
+
+.login li{
+display: inline-block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login .list i{
+font-size: 25px;
+}
+._0{
+    width: 15px;
+    height: 15px;
+    background-color: #7b5244;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+   padding: 2px 0px;
+  
+   font-size: 13px;
+}
+.list{
+    position: relative;
+}
+.dropdown{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    width: 450px;
+    border: 2px solid #7b5244;
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    transform: scale(0);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    text-overflow: auto;
+}
+.list:hover .dropdown{
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}
+.ul_drop{
+    list-style: none;
+    display: table-cell;
+}
+.dropdown .ul_drop li:first-child a {
+    display: block;
+    border-bottom: 1px dotted #7b5244;
+    margin-bottom: 10px;
+}
+.dropdown .ul_drop li{
+    line-height: 1.7;
+}
+/* section1 */
+.div1{
+    margin: auto;
+    width: 85%;
+    height: 500px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+/* section2 */
+.h2{
+    text-align: center;
+    font-size: 30px;
+}
+.line1{
+    display: block;
+    width:100px;
+    height:3px ;
+    background-color: rgb(167, 103, 19);
+    margin:auto ;
+}
+.container{
+    width: 93%;
+    margin: auto;
+}
+.purple{
+    float: left;
+    width: 20%;
+    margin-left:100px ;
+    
+}
+.angle{
+    margin-top: 20px;
+     height:90%;
+     width: 30px;
+     height: 30px;
+     font-size: 25px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+    opacity: 0;
+    }
+    .horizontal {
+        display:flex;
+        margin-bottom: 55px;
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .hr_{
+        flex:1;
+        text-align: center;
+        border-right: 1px solid #7b5244;
+    }
+    .hr_:last-child{
+        border:0;
+    }
+    .sprite-info h3{
+        font-size: 17px;
+    }
+    .sprite-info span{
+        color: gray;
+        font-size: 15px;
+    }
+    .sprite-icon{
+        background-image: url(../images/jjjj.jpg);
+        height: 55px;
+        background-repeat: no-repeat;
+    }
+    .sprite-icon-1{
+    background-position: center 5px;
+    transition: all .5s;
+    }
+    .hr_:hover .sprite-icon-1{
+        background-position: center -86px;
+    }
+    .sprite-icon-2{
+    background-position: center -180px;
+    transition: all .5s;
+    }
+    .hr_:hover .sprite-icon-2{
+        background-position: center -273px;
+    }
+    .sprite-icon-3{
+    background-position: center -366px;
+    transition: all .5s;
+    }
+    .hr_:hover .sprite-icon-3{
+        background-position: center -455px;
+    }
+    .sprite-icon-4{
+    background-position: center -549px;
+    transition: all .5s;
+     }
+     .hr_:hover .sprite-icon-4{
+        background-position: center -639px;
+    }
+    .sprite-icon-5{
+    background-position: center -734px;
+    transition: all .5s;
+    }
+    .hr_:hover .sprite-icon-5{
+        background-position: center -826px;
+    }
+      .spn_sprite{
+          display: block;
+          width: 85%;
+          height: 1px;
+          background-color: gray;
+          margin: auto;
+      }
+.yellow{
+    float: left;
+    width: 20%;
+    margin:0px 15px ;
+    
+}
+.brown{
+    float: left;
+    width: 20%;
+    margin:0px 15px 0px 0px ;
+    
+    
+}
+.black{
+    float: left;
+    width: 20%;
+     
+}
+.p1{
+    color:rgb(179, 174, 174) ;
+}
+.p2{
+    font-size:15px ;
+    color: rgb(8, 7, 7);
+    
+}
+
+img{
+    width: 100%;
+}
+.parent{
+    width:80%;
+    height: 500px;
+    margin:auto ;
+}
+.table{
+    
+    width: 20%;
+    height: 500px;
+    position: relative;
+        float: right;
+        
+}
+.white{
+    width: 20%;
+    height: 500px;
+    margin:0px 7px ;
+        float: right;
+        position: relative;
+}
+.imgt{
+    width: 100%;
+}
+.imgw{
+    width: 100%;
+    
+}
+.jj1{
+    line-height: 5px;
+}
+.jj2{
+    line-height: 5px;
+}
+.jj3{
+    line-height: 5px;
+}
+.jj4{
+    line-height: 5px;
+}
+.mm{
+    position: absolute;
+    line-height:2px ;
+    top: 0px;
+    padding:0px 10px ;
+}
+.hh{
+    position: absolute;
+    line-height:2px ;
+    top: 0px;
+    padding:0px 10px ;
+}
+.t1{
+    color: brown;
+    
+
+}
+.t3{
+    color: brown;
+}
+.table:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.white:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.pp{
+    float: left;
+    width: 57%;
+    background-color: rgb(202, 199, 199);
+    height:250px ;
+    margin-right:auto ;
+}
+.sp1{
+    display: block;
+    width: 55px;
+    height:2px ;
+    background-color: brown;
+    float: right;
+}
+.sp2{
+    display: block;
+    width: 55px;
+    height:2px ;
+    background-color: brown;
+    float: right;
+    margin: 0px 10px;
+   
+}
+.sp3{
+    display: block;
+    width: 55px;
+    height:2px ;
+    background-color: brown;
+    float: right;
+   
+}
+.span{
+    margin-right: 10px;
+}
+
+    
+.cc
+{
+    line-height: 2px;
+}
+.ll{
+    color: rgb(132, 33, 33);
+    padding:0px 35px ;
+}
+.kk{
+    padding:0px 35px ;
+
+}
+.nn{
+    padding:0px 10px ;
+}
+/* section4 */
+.uu{
+    text-align:center ;
+}
+.span2{
+    display: block;
+    background-color: brown;
+    width:70px;
+    height: 3px;
+    margin:auto ;
+}
+.papa{
+    width: 80%;
+    margin: auto;
+}
+.aa{
+    float: left;
+   
+    width:30% ;
+}
+.oo{
+    float: left;
+    width:30% ;
+    margin:0px 10px ;
+}
+.vv{
+    float: left;
+    width:30% ;
+}
+.tb{
+    width:100% ;
+}
+.bw{
+    width: 100%;
+}
+.yy{
+    width:100% ;
+}
+ol{
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-left: 20px;
+}
+.fas{
+    color: yellow;
+}
+.zz{
+    line-height: 3px;
+}
+ .lk {
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ } 
+  .lm{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .vb{
+      font-size:40px ;
+      float: left;
+      padding-top:10px ;
+  }
+  .mar{
+      padding-top: 5px;
+      
+  }
+
